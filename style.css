@@ -16,7 +16,7 @@ body {
 
 #sidebar-wrapper {
     width: 250px;
-    height: 70vh;
+    height: 50vh;
     position: static;
     left: 0;
     top: 0;
@@ -42,14 +42,22 @@ body {
 }
 
 .list-group-item:hover {
-    background-color: #f6f5f8;
-    color: #0e0d0d;
+    background-color: rgb(150, 99, 99);
+    color: black;
     display: flex;
 }
 
 .list-group-item i {
     margin-right: 1rem;
     color: white;
+    /* Updated to white */
+}
+
+.list-group-item-action {
+    color: white;
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .container-fluid {
@@ -83,13 +91,13 @@ body {
 }
 
 #about-content {
-    padding: 20px;
+    padding-left: 20px;
     background: rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 100px;
-    border-radius: 0%;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
 }
